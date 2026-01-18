@@ -1,8 +1,9 @@
 {
-  "id": "obsidian-markdown-password",
+  "id": "markdown-password",
   "name": "Markdown Password",
   "version": "1.0.0",
-  "description": "A secure Markdown standard for embedding secrets using [|vault:id|], preventing leakages to sync services and AI while providing audit logs.",
+  "minAppVersion": "1.0.0",
+  "description": "Securely manage secrets in your notes using standard [|vault:id|] placeholders and local AES-256-GCM encryption.",
   "author": "hoyin258",
   "isDesktopOnly": false
 }

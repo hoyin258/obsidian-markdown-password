@@ -1,4 +1,6 @@
-# Obsidian Markdown Password
+# Markdown Password
+
+![Markdown Password Demo](raw/output.gif)
 
 **Markdown Password** is a professional-grade Obsidian plugin that introduces a standardized, secure way to embed encrypted secrets directly into your Markdown files. It advocates for the universal format `[|vault:id|]`, ensuring your sensitive data remains private even when your notes are processed by cloud services or AI.
 
@@ -54,7 +56,7 @@ If your status is **Unlocked (Auto-encrypt ON)**, the plugin will automatically:
 - **Zero-Storage**: The Master Key is never stored on disk.
 
 ### Data Storage
-- **Vault File**: All encrypted payloads are stored in `.obsidian/plugins/obsidian-markdown-password/vault.json`.
+- **Vault File**: All encrypted payloads are stored in `.obsidian/plugins/markdown-password/vault.json`.
 - **Sync Recommendation**: For maximum security, we recommend **excluding** `vault.json` from your sync provider (e.g., adding it to `.gitignore` or unchecking it in Obsidian Sync).
 
 ---
@@ -65,8 +67,8 @@ If your status is **Unlocked (Auto-encrypt ON)**, the plugin will automatically:
 Search for `Markdown Password` in the Obsidian Community Plugins browser and click Install.
 
 ### Manual Installation
-1. Download `main.js`, `manifest.json` from the [latest release](https://github.com/hoyin258/obsidian-markdown-password/releases).
-2. Create a folder named `obsidian-markdown-password` in your vault's plugin directory: `<vault>/.obsidian/plugins/`.
+1. Download `main.js`, `manifest.json` from the [latest release](https://github.com/hoyin258/markdown-password/releases).
+2. Create a folder named `markdown-password` in your vault's plugin directory: `<vault>/.obsidian/plugins/`.
 3. Move the downloaded files into that folder.
 4. Reload Obsidian and enable the plugin in Settings.
 

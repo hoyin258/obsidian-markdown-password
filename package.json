@@ -1,11 +1,11 @@
 {
-  "name": "obsidian-markdown-password",
+  "name": "markdown-password",
   "version": "1.0.0",
   "description": "markdown password and secret management for Obsidian",
   "main": "main.js",
   "scripts": {
-    "build": "tsc -noEmit -skipLibCheck && node esbuild.config.mjs production && mkdir -p ./bin && cp manifest.json ./bin/",
-    "test": "mkdir -p ./test-folder/.obsidian/plugins/obsidian-markdown-password && cp ./bin/main.js ./test-folder/.obsidian/plugins/obsidian-markdown-password/ && cp ./bin/manifest.json ./test-folder/.obsidian/plugins/obsidian-markdown-password/",
+    "build": "tsc -noEmit -skipLibCheck && node esbuild.config.mjs production",
+    "test": "mkdir -p ./test-folder/.obsidian/plugins/markdown-password && cp main.js ./test-folder/.obsidian/plugins/markdown-password/ && cp manifest.json ./test-folder/.obsidian/plugins/markdown-password/",
     "dev": "npm run build && npm run test",
     "watch": "node esbuild.config.mjs",
     "unit-test": "vitest run",

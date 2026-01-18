@@ -21,7 +21,7 @@ export class VaultCore {
   private ALGO = "AES-GCM";
 
   constructor(private app: any) {
-    this.vaultPath = `${this.app.vault.configDir}/plugins/obsidian-markdown-password/vault.json`;
+    this.vaultPath = `${this.app.vault.configDir}/plugins/markdown-password/vault.json`;
   }
 
   // --- Crypto Logic ---
